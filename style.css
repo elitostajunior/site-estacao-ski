@@ -7,13 +7,53 @@
 header {
     min-height: 12vh;
     background-color: lightskyblue;
-    padding: 7px 7px 10px 7px;
+    padding: 10px 10px 20px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
-header nav, header div {
+header div {
     border: 1px solid red;
+}
+
+.menu {
+    background-color: #f9f9f9;
+    border: 1px solid green;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid green;
+}
+
+.dropdown-menu li {
+    display: grid;   
+}
+
+.dropdown-menu li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .cover {
