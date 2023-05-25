@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 12vh;
+    background-color: lightskyblue;
+    padding: 7px 7px 10px 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav, header div {
+    border: 1px solid red;
+}
+
+.cover {
+    height: 65vh;
+    background-color: sandybrown;
+    display: grid;
+    grid-template-columns: 70vw 1fr;
+}
+
+.imagem-cover {
+    border: 1px solid blue;
+    height: 100%;
+}
+
+.texto-cover {
+    border: 1px solid purple;
+    height: 100%;
+}
