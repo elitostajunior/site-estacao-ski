@@ -136,6 +136,17 @@ header {
     align-items: center;
 }
 
+.articles article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #74caee;
+}
+
+.articles article p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
 .article-text {
     text-align: center;
     border: 1px solid blue;
@@ -161,8 +172,49 @@ header {
 #article-end {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 1vh;
+}
+
+#article-end .article-text {
+    margin-top: 6vh;
 }
 
 .photo-large img {
     max-width: 60vw;
+}
+
+.social-media-bar {
+    background-image: url("img/ImatgeFons_XXSS.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid green;
+    height: 75vh;
+    padding-top: 12vh;
+    text-align: center;
+}
+
+.social-media-bar h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-medias img {
+    width: 2.5vw;
+}
+
+#margin-icons {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+footer {
+    background-color: #3d3d3d;
+    min-height: 20vh;
 }
