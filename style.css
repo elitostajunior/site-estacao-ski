@@ -128,8 +128,8 @@ header {
 
 .articles article {
     border: 1px solid red;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     min-height: 30vh;
     display: flex;
     justify-content: center;
