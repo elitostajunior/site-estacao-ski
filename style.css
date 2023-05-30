@@ -6,13 +6,16 @@
 }
 
 header {
-    min-height: 12vh;
+    height: 12vh;
     font-size: 1.2rem;
     background-color: white;
     padding: 8px 12px 25px 10px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .menu ul {
@@ -29,7 +32,7 @@ header {
 
 .dropdown {
     margin-top: 2px;
-    margin-right: 7vw;
+    margin-right: 6vw;
 }
 
 .dropdown a {
@@ -85,6 +88,10 @@ header {
 
 .language span {
     margin: 3px;
+}
+
+main {
+    margin-top: 12vh;
 }
 
 .cover {
@@ -144,7 +151,46 @@ header {
 
 .articles article p {
     font-size: 1.3rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.articles article a {
+    text-decoration: none;
+    color: #74caee;   
+    font-size: 1.3rem; 
+}
+
+.articles article button {
+    border: 1px solid #74caee;
+    background-color: white;
+    border-radius: 23px;
+    padding: 6px 15px;
+}
+
+.articles article button:hover {
+    background-color: #74caee;
+}
+
+.articles article a:hover {
+    color: white;
+}
+
+#blue-button {
+    background-color: #74caee;
+    padding: 6px 13px;
+}
+
+#blue-button a {
+    color: white;
+    font-size: 0.9rem;
+}
+
+#blue-button:hover {
+    background-color: white;
+}
+
+#blue-button a:hover {
+    color: #74caee;
 }
 
 .article-text {
@@ -187,7 +233,7 @@ header {
 .social-media-bar {
     background-image: url("img/ImatgeFons_XXSS.jpeg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 1px solid green;
     height: 75vh;
     padding-top: 12vh;
@@ -206,7 +252,7 @@ header {
 }
 
 .social-medias img {
-    width: 2.5vw;
+    width: 50px;
 }
 
 #margin-icons {
