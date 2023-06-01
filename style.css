@@ -264,3 +264,37 @@ footer {
     background-color: #3d3d3d;
     min-height: 20vh;
 }
+
+@media (max-width: 1024px) {    
+    .cover {
+        display: block;
+    }
+
+    .imagem-cover {
+        height: 60vh;
+    }
+
+    .imagem-cover img {
+        width: 100vw;
+    }
+
+    .texto-cover {
+        padding: 5vh;
+        height: 30vh;
+        text-align: center;
+    }
+
+    .articles article, #article-end {
+        display: grid;
+    }
+
+    .article-photo img {
+        max-width: 80vw;
+    } 
+
+    .article-text {
+        max-width: 80vw;
+    }
+
+    
+}
