@@ -55,7 +55,7 @@ header {
     padding: 10px;
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu li:hover a {
     background-color: #74caee;
     color: #212519;
 }
@@ -189,7 +189,7 @@ main {
     background-color: #74caee;
 }
 
-.articles article a:hover {
+.articles article button:hover a {
     color: white;
 }
 
@@ -207,7 +207,7 @@ main {
     background-color: white;
 }
 
-#blue-button a:hover {
+#blue-button:hover a {
     color: #74caee;
 }
 
