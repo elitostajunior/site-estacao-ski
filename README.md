@@ -11,7 +11,7 @@ Toda a estilização foi feita respeitando o layout original, e, por meio disso,
 
 ### Deploy do projeto:
 
-- https://gentle-beds.surge.sh/
+- https://elitostajunior.github.io/site-estacao-ski/
 
 ### Imagens do projeto:
 
